@@ -49,7 +49,7 @@ y = np.array(all_video_labels)  # Emotion labels
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 ```
 Explanation:
-- EEG feature vectors (**`X`**) and emotion labels (**`y`**) are converted into NumPy arrays for compatibility with **`scikit-learn.
+- EEG feature vectors (**`X`**) and emotion labels (**`y`**) are converted into NumPy arrays for compatibility with **`scikit-learn`**.
 - Data is split into 80% training and 20% testing to evaluate the model's performance.
 
 ### Training the SVM Model
