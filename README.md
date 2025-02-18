@@ -82,6 +82,6 @@ Explanation:
 - **`accuracy_score()`** calculates how well the model classifies emotions.
 
 ## Future Improvements
-Feature Engineering: Extract more meaningful EEG features.
-Different Classification Models: Try Deep Learning (CNN, LSTMs).
-Real-time Emotion Detection: Implement a live EEG-based emotion recognition system.
+- Feature Engineering: Extract more meaningful EEG features.
+- Different Classification Models: Try Deep Learning (CNN, LSTMs).
+- Real-time Emotion Detection: Implement a live EEG-based emotion recognition system.
